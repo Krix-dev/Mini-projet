@@ -1,0 +1,23 @@
+CSS
+
+
+.image  {
+	text-align: center;
+}
+
+.image img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 2);
+	display: block;
+	margin: 0 auto; /* centre l'image*/
+	transition: transform 0.3s ease;	
+	cursor:pointer;				
+
+}
+
+.image img:hover {
+	transform: scale(1.02);			
+}
