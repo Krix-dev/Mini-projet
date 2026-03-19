@@ -73,13 +73,6 @@ nav a:hover {
 	background-color: #d8a85d;
 	font-family: "georgia", sans-serif;
 }
-.B figcaption {
-	font-size: 0.9em;
-	font-style: italic;
-	text-align: center;
-	color: #555;
-	margin-top: 0.5em;
-}
 .B table, th, td {
 	border: 1px solid #d2b48c;
 	border-collapse: collapse;	
