@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title> Univers Échecs - Le jeux royal </title>
+	<title> Univers Échecs - Le jeu royal </title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="CSS/Chess.css">
 	<link rel="stylesheet" href="CSS/image.css">
@@ -38,11 +38,69 @@
 
 		<section id="principe" class="B">
 			<h2><u> Principe du jeu d'échec </u></h2>
-			<p>Ce jeu se joue entre deux joueurs sur un échiquier de 64 cases colorées en noir et blanc en alternance...</p>
-			<div class="image">
+			<p>Ce jeu se joue entre deux joueurs sur un échiquier de 64 cases colorées en noir et blanc en alternance. Les blancs sont dans les rangées 1 et 2 tandis que les noirs dans les rangées 7 et 8. Chaque joueur doit avoir à sa droite une case blanche dans l'extrémité.</p>
+
+			<figure class="image">
 				<img src="Images/echiquier.jpg" alt="Échiquier">
-			</div>
-			<p>Les blancs commencent toujours la partie, puis les noirs jouent à leur tour...</p>
+				<figcaption>Disposition initiale des pièces sur l'échiquier</figcaption>
+			</figure>
+
+		<p>
+ 			Les blancs commencent toujours la partie, puis les noirs jouent à leur tour.	
+ 			Les joueurs disposent du même nombre de pièces (16 chacun) et celle-ci sont symétriquement alignées (8 pions, 2 tours, 2 cavaliers, 2 fous, 1 dame et 1 roi).
+		</p>
+
+		<p>
+ 			Le roi est la pièce placée dans la colonne E. Les dames sont toujours sur la case de sa couleur (colonne D).
+ 			Les autres pièces sont placées de la manière suivante: les tours occupent les coins car parmi les trois (tour, cavalier, fou) il est le plus fort. Symbolisant la partie du château où il y a le plus de garde.
+ 			Près des tours se trouvent les cavalier car dans les vrais châteaux les écuries sont toujours près des tours pour symboliser les chevaliers.
+ 			Enfin les fous qui se placent près du roi et de la dame comme conseillers ou officiers réligieux. Les pions sont placés dans la deuxième rangée pour les blancs et la séptième pour les noirs.
+		</p>
+		<p>
+ 			L'objectif dans ce jeu consiste à capturer le roi adverse en l'immobilisant (plus de mouvements possibles et en état d'échec); c'est ce qu'on appelle échec et mat.	 
+		</p>
+			<table>
+				<caption>Mouvements et règles spéciales des pièces d'échecs</caption>
+				<thead>
+					<tr>
+						<th>Pièces</th>
+						<th>Mouvements</th>
+						<th>Coups spéciaux</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Roi</td>
+						<td>1 case dans toutes les directions</td>
+						<td><strong>Roque :</strong> échange de place avec une tour (si ni le roi ni la tour n'ont bougé et s'il n'y a pas d'échec ni d'obstacle).</td>
+					</tr>
+					<tr>
+						<td>Dame</td>
+						<td>Toutes directions (horizontal, vertical, diagonale)</td>
+						<td>Aucun.</td>
+					</tr>
+					<tr>
+						<td>Tour</td>
+						<td>Horizontal ou vertical, autant de cases que voulu</td>
+						<td><strong>Roque :</strong> voir le roi.</td>
+					</tr>
+					<tr>
+						<td>Fou</td>
+						<td>Diagonale sur n'importe quelle distance</td>
+						<td>Aucun.</td>
+					</tr>
+					<tr>
+						<td>Cavalier</td>
+						<td>En "L" : 2 cases dans une direction + 1 perpendiculaire</td>
+						<td>Aucun.</td>
+					</tr>
+					<tr>
+						<td>Pion</td>
+						<td>1 case en avant (ou 2 cases au premier coup), prise en diagonale</td>
+						<td><strong>Prise en passant :</strong> capture spéciale juste après qu'un pion adverse a avancé de 2 cases. <strong>Promotion :</strong> en atteignant la dernière rangée, le pion devient une autre pièce (souvent une dame).</td>
+					</tr>
+				</tbody>
+			</table>
 		</section>
 
 		<section id="avantage" class="C">
